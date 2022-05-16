@@ -1,6 +1,6 @@
 import { auth, googleAuthProvider } from '../lib/firebase';
 
-export default function EnterPage({ }) {
+export default function Enter({ }) {
     const user = null;
     const username = null;
 
@@ -28,7 +28,7 @@ function SignInButton() {
 }
 
 function SignOutButton() {
-
+return <button onClick={() => auth.signOut()}>Sign Out</button>
 }
 
 function UsernameForm() {
