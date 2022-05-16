@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^9.8.1",
+    "react-hot-toast": "^2.2.0"
+  }
+}
